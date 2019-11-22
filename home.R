@@ -2,7 +2,7 @@
 
 name <- c("alfie")
 home_town <- c("london")
-scared_of <= c("ghosts")
+scared_of <= c("bugs")
 
 df <- data.frame(name, home_town, scared_of)
 
