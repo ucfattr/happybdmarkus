@@ -1,4 +1,7 @@
 #this is the R script git intro
+library("tmaptools")
+library("jsonlite")
+setwd("C:\\Users\\Alfie\\Documents\\my_gits\\casa_git_intro\\happybdmarkus")
 
 name <- c("alfie")
 home_town <- c("london")
