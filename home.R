@@ -15,4 +15,7 @@ df <- merge(df, dfGeo, by.x="home_town", by.y="query")
 
 print(df)
 
+df <- df[,c("lat","lon","name","home_town","scared_of")]
+write.table(df,"location.csv", col.names=FALSE,row.names=FALSE,sep=",")
+
 #this is the one
