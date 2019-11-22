@@ -5,7 +5,7 @@ setwd("C:\\Users\\Alfie\\Documents\\my_gits\\casa_git_intro\\happybdmarkus")
 
 name <- c("alfie")
 home_town <- c("london")
-scared_of <= c("bugs")
+scared_of <- c("bugs")
 
 df <- data.frame(name, home_town, scared_of)
 
